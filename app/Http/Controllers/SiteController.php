@@ -10,7 +10,7 @@ class SiteController extends Controller
 {
     public function index()
     {
-        $data = json_decode(file_get_contents(storage_path() . "/Appendix1.json"), true);
+        $data = json_decode(file_get_contents(storage_path() . "/part1.json"), true);
 
         echo "<pre>";
         // print_r($data); GET Data from json file
